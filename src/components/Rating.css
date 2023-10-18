@@ -1,0 +1,9 @@
+.Rating {
+    border: 1px solid red;
+    max-width: 400px;
+    border-radius: 20px;
+    background-color: var(--Dark-Blue);
+    color: var(--White);
+    padding: 2rem;
+    margin: 1rem;
+}
