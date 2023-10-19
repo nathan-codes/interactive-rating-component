@@ -4,6 +4,76 @@
     border-radius: 20px;
     background-color: var(--Dark-Blue);
     color: var(--White);
-    padding: 2rem;
-    margin: 1rem;
+    padding: 1.5rem;
+    margin: .5rem;
+    opacity: 2px;
+    
+}
+
+
+span.star-logo {
+   display: flex;
+   width: 40px;
+   height: 40px;
+   padding: .3rem;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100%;
+   background-color: var(--Medium-Grey);
+   margin-bottom: 1.5rem;
+
+    
+}
+
+p.description {
+    color: var( --Light-Grey);
+    font-size: 15px;
+}
+
+.btn {
+    margin-top: 1rem;
+    color: white;
+    width: 100%;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    background-color: var(--Orange);
+    padding: .5rem 0;
+}
+
+/* Styling the radio buttons */
+
+input[type="radio"] {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: var(--);
+  -webkit-appearance: none; /*to disable the default appearance of radio button*/
+  -moz-appearance: none;
+}
+
+input[type="radio"]:focus { /*no need, if you don't disable default appearance*/
+  outline: none; /*to remove the square border on focus*/
+}
+
+input[type="radio"]:checked { /*no need, if you don't disable default appearance*/
+  background-color: var(--Light-Grey);
+}
+
+input[type="radio"]:checked ~ span:first-of-type {
+  color: white;
+}
+
+label span:first-of-type {
+  
+    position: relative;
+  top: -10px;
+  left: -19px;
+  font-size: 15px;
+  color: var(--Light-Grey);
+}
+
+label span {
+  position: relative;
+  top: -12px;
 }
